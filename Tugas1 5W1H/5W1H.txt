@@ -1,0 +1,37 @@
+Kelompok 7
+Nama Ketua     : Indri Yani Berutu 535200078
+Nama Anggota   : Muhammad Habib Riski 535200076
+                 Krisna Wijaya Liu 535200077
+                 Eiji Yoshikawa 535200063
+                 Devi Ayu Permata Sari 535200087
+
+Judul Website  : Nanopedia
+
+•	Why?
+Setelah berdiskusi kelompok kami menentukan Nanopedia sebagai judul dari website kami 
+Nanopedia adalah Website Online Shop, kami terinspirasi dari salah satu website online yang terkenal dan banyak digunakan yaitu tokopedia, Nanopedia sendiri hampir mirip dengan tokopedia tampilan nya dan kegunaan nya yaitu sebagai platform belanja online.
+•	What?
+Jadi seperti yang sudah di jelaskan diatas Nanopedia adalah website untuk berbelanja online,
+Nah di Nanopedia ini kita dapat membeli segala perlengkapan dan kebutuhan  sehari hari seperti makanan yaitu nanofood lalu ada pakaian, alat electronic, peralatan rumah tangga, peralatan sekolah dll,
+•	Who? 
+Kami seluruh anggota kelompok 7 yang akan berkontribusi dalam menyelesaikan project ini 
+Yaitu 
+1.	Indri Yani Berutu
+2.	Muhammad Habib Riski
+3.	Krisna Wijaya Liu
+4.	Eiji Yoshikawa
+5.	Devi Ayu Permata Sari
+•	Where?
+Dikarnakan sedang pandemic sehingga tidak memungkinkan untuk mengerjakan nya Bersama sama secara tatap muka jadi kami mengerjakan project ini dengan memanfaatkan platform platform sebagai alternatif dalam penyelesaian project ini kami menggunakan platform sebagai berikut
+1.	Zoom 
+2.	Github
+3.	MS Teams 
+4.	Whatsapp
+5.	VSCode (sebagai tools)
+•	When?
+Sesuai konstruksi dari Bapak dosen Irvan Lewenusa dan berdikusi dengan anggota kelompok kami akan memulai pemubuatan website pada pertemuan 2 pada tanggal 23 Agustus 2021
+•	How?
+Pembuatan Project Website Online shop ini akan dibuat menggunakan HTML, CSS dan JavaScript (sampai UTS) dan akan di lanjut ke backhand setelah UTS 
+
+
+
