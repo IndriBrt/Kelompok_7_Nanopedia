@@ -13,7 +13,8 @@ Nanopedia adalah Website Online Shop, kami terinspirasi dari salah satu website 
 •	What?
 Jadi seperti yang sudah di jelaskan diatas Nanopedia adalah website untuk berbelanja online,
 Nah di Nanopedia ini kita dapat membeli segala perlengkapan dan kebutuhan  sehari hari seperti makanan yaitu nanofood lalu ada pakaian, alat electronic, peralatan rumah tangga, peralatan sekolah dll,
-•	Who? 
+•	Who?
+Target dari pengguna website ini ialah para masyarakat untuk memenuhi kebutuhan sehari dll.
 Kami seluruh anggota kelompok 7 yang akan berkontribusi dalam menyelesaikan project ini 
 Yaitu 
 1.	Indri Yani Berutu
@@ -31,7 +32,7 @@ Dikarnakan sedang pandemic sehingga tidak memungkinkan untuk mengerjakan nya Ber
 •	When?
 Sesuai konstruksi dari Bapak dosen Irvan Lewenusa dan berdikusi dengan anggota kelompok kami akan memulai pemubuatan website pada pertemuan 2 pada tanggal 23 Agustus 2021
 •	How?
-Pembuatan Project Website Online shop ini akan dibuat menggunakan HTML, CSS dan JavaScript (sampai UTS) dan akan di lanjut ke backhand setelah UTS 
+Pembuatan Project Website Online shop ini akan dibuat menggunakan HTML, CSS dan JavaScript (sampai UTS) dan akan di lanjut ke backend setelah UTS 
 
 
 
