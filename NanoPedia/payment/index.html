@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Wizard-v5</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/nunito-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<div class="page-content">
+		<div class="wizard-v5-content">
+			<div class="wizard-form">
+		        <form class="form-register" id="form-register" action="#" method="post">
+		        	<div id="form-total">
+		        		<!-- SECTION 1 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-check"></i></span>
+			            	<span class="step-text">Personal Information</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+								<div class="form-row">
+									<div class="form-holder">
+										<label for="first_name">First Name</label>
+										<input type="text" placeholder="ex: Indri" class="form-control" id="first_name" name="first_name">
+									</div>
+									<div class="form-holder">
+										<label for="last_name">Last Name</label>
+										<input type="text" placeholder="ex: Yani" class="form-control" id="last_name" name="last_name">
+									</div>
+								</div>
+								<div class="form-row">
+									<div id="radio">
+										<label for="gender">Gender:</label>
+										<input type="radio" name="gender" value="male" checked> Male
+  										<input type="radio" name="gender" value="female"> Female
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label for="address">Address Location</label>
+										<input type="text" placeholder="Taman Anggrek Residence, jakarta barat" class="form-control" id="address" name="address">
+										<span><i class="zmdi zmdi-pin"></i></span>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-3">
+										<label for="phone">Phone Number</label>
+										<input type="text" placeholder="+62 082164xxx" class="form-control" id="phone" name="phone">
+									</div>
+									<div class="form-holder">
+										<label for="code">Kode pos</label>
+										<input type="text" class="form-control" id="code" name="code">
+									</div>
+								</div>
+								<div class="form-row form-row-date">
+									<div class="form-holder form-holder-2">
+										<label for="date" class="special-label">Date of Birth:</label>
+										<select name="date" id="date" class="form-control">
+											<option value="1" selected>1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+											<option value="11">11</option>
+											<option value="12">12</option>
+											<option value="13">13</option>
+											<option value="14">14</option>
+											<option value="15">15</option>
+											<option value="16">16</option>
+											<option value="17">17</option>
+											<option value="18">18</option>
+											<option value="19">19</option>
+											<option value="20">20</option>
+											<option value="21">21</option>
+											<option value="22">22</option>
+											<option value="23">23</option>
+											<option value="24">24</option>
+											<option value="25">25</option>
+											<option value="26">26</option>
+											<option value="27">27</option>
+											<option value="28">28</option>
+											<option value="29">29</option>
+											<option value="30">30</option>
+											<option value="31">31</option>
+										</select>
+										<select name="month" id="month" class="form-control">
+											<option value="Jan" selected>Jan</option>
+											<option value="Feb">Feb</option>
+											<option value="Mar">Mar</option>
+											<option value="Apr">Apr</option>
+											<option value="May">May</option>
+											<option value="Jun">Jun</option>
+											<option value="Jul">Jul</option>
+											<option value="Aug">Aug</option>
+											<option value="Sep">Sep</option>
+											<option value="Oct">Oct</option>
+											<option value="Nov">Nov</option>
+											<option value="Des">Des</option>
+										</select>
+										</select>
+										<select name="year" id="year" class="form-control">
+											<option value="2018" selected>1990</option>
+											<option value="2017">1991</option>
+											<option value="2016">1992</option>
+											<option value="2015">1993</option>
+											<option value="2014">1994</option>
+											<option value="2013">1995</option>
+											<option value="2017">1996</option>
+											<option value="2016">1997</option>
+											<option value="2015">1998</option>
+											<option value="2014">1999</option>
+											<option value="2013">2000</option>
+											<option value="2013">2001</option>
+											<option value="2013">2002</option>
+											<option value="2013">2003</option>
+											<option value="2013">2004</option>
+											<option value="2013">2005</option>
+											<option value="2013">2006</option>
+											<option value="2013">2007</option>
+											<option value="2013">2008</option>
+
+										</select>
+									</div>
+								</div>
+							</div>
+			            </section>
+						<!-- SECTION 2 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-check"></i></span>
+			            	<span class="step-text">Payment</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label for="bank">Payment Method:</label>
+										<input type="text" placeholder="" class="form-control input-step-2" id="bank" name="bank">
+										<span><i class="zmdi zmdi-search"></i></span>
+									</div>
+									<div class="form-holder form-holder-2">
+										<label for="branch">If via bank transfer:</label>
+										<input type="text" placeholder="Enter Bank name" class="form-control input-step-2" id="branch" name="branch">
+									</div>
+								</div>
+								<div class="form-row">
+							</div>
+			            </section>
+			            <!-- SECTION 3 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-check"></i></span>
+			            	<span class="step-text">Confirm Details</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<h3>Comfirm Details</h3>
+								<div class="form-row table-responsive">
+									<table class="table">
+										<tbody>
+											<tr class="space-row">
+												<th>Full Name:</th>
+												<td id="fullname-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Email Address:</th>
+												<td id="email-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Phone Number:</th>
+												<td id="phone-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Address Location:</th>
+												<td id="address-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Gender:</th>
+												<td id="gender-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Payment Method:</th>
+												<td id="bank-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Bank Name:</th>
+												<td id="branch-val"></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+			            </section>
+		        	</div>
+		        </form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.steps.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
