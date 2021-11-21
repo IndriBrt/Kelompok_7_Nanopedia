@@ -29,11 +29,6 @@ const requireAuth = async (req, res, next) => {
     }
 };
 
-router.get('/test', async (req, res) => {
-    
-    res.render('layouts/navbar');
-    res.render('layouts/footer');
-})
 
 router.get('/', async (req, res) => {
     const products = await ProductModel.find();
