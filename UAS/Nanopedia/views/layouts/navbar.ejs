@@ -3,6 +3,7 @@
 <!-- Basic -->
 
 <head>
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -16,17 +17,17 @@
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="/css/responsive.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="/css/custom.css">
 
 </head>
 
@@ -102,14 +103,14 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                    <a class="navbar-brand" href="/index"><img src="images/logo.png" class="logo" alt=""></a>
+                    <a class="navbar-brand" href="/"><img src="/images/logo.png" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item active"><a class="nav-link" href="/index">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
                         <li class="dropdown megamenu-fw">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Product</a>
@@ -175,7 +176,6 @@
                                 <li><a href="/checkout">Checkout</a></li>
                                 <li><a href="/my-account">My Account</a></li>
                                 <li><a href="/wishlist">Wishlist</a></li>
-                                <li><a href="/shop-detail">Shop Detail</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="/service">Our Service</a></li>
@@ -186,12 +186,15 @@
 
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
-                    <ul>
-                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                        <li class="side-menu"><a href="#">
+                    <ul id="icons">
+                        
+                        <li class="search"><a href="/shop"><i class="fa fa-search"></i></a></li>
+                        <li class="side-menu"><a href="/cart">
 						<i class="fa fa-shopping-bag"></i>
-                            <span class="badge">4</span>
+                            <!-- <span class="badge"><%=  %></span> -->
 					</a></li>
+                        
+                        <li class=""><a href="/logout"><i class="fas fa-sign-out-alt"></i></a></li>
                     </ul>
                 </div>
                 <!-- End Atribute Navigation -->
@@ -202,17 +205,17 @@
                 <li class="cart-box">
                     <ul class="cart-list">
                         <li>
-                            <a href="#" class="photo"><img src="images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
+                            <a href="#" class="photo"><img src="/images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
                             <h6><a href="#">Delica omtantur </a></h6>
                             <p>1x - <span class="price">120.000 IDR</span></p>
                         </li>
                         <li>
-                            <a href="#" class="photo"><img src="images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
+                            <a href="#" class="photo"><img src="/images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
                             <h6><a href="#">Omnes ocurreret</a></h6>
                             <p>1x - <span class="price">300.000 IDR</span></p>
                         </li>
                         <li>
-                            <a href="#" class="photo"><img src="images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
+                            <a href="#" class="photo"><img src="/images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
                             <h6><a href="#">Agam facilisis</a></h6>
                             <p>1x - <span class="price">400.000 IDR</span></p>
                         </li>
@@ -230,20 +233,20 @@
     <!-- End Main Top -->
 
     <!-- ALL JS FILES -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script> -->
     <!-- ALL PLUGINS -->
-    <script src="js/jquery.superslides.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/inewsticker.js"></script>
-    <script src="js/bootsnav.js."></script>
-    <script src="js/images-loded.min.js"></script>
-    <script src="js/isotope.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/baguetteBox.min.js"></script>
-    <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/custom.js"></script>
-</body>
-</html>
+    <!-- <script src="/js/jquery.superslides.min.js"></script>
+    <script src="/js/bootstrap-select.js"></script>
+    <script src="/js/inewsticker.js"></script>
+    <script src="/js/bootsnav.js."></script>
+    <script src="/js/images-loded.min.js"></script>
+    <script src="/js/isotope.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/baguetteBox.min.js"></script>
+    <script src="/js/form-validator.min.js"></script>
+    <script src="/js/contact-form-script.js"></script>
+    <script src="/js/custom.js"></script> -->
+    <%- include('../layouts/footer.ejs'); %>
+

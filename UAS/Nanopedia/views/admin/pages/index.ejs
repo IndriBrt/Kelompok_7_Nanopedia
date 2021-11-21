@@ -1,0 +1,83 @@
+
+    <%- include('../layouts/header.ejs'); %>
+
+  <div class="container p-3">
+    <div class="row ">
+      <div class="col-11 mb-3">
+        <h3 class="h3">Products</h3>
+      </div>
+      <div class="col-1">
+        <button class="btn btn-primary "><a href="/admin/add" class="text-white">Tambah</a> </button>
+      </div>
+      <div class="col-12 " style="display: grid; place-items: center;">
+
+        <table id="table" border="1" class="w-100 " >
+            <thead>
+              <tr>
+                <td>Name</td>
+                <td>Description</td>
+                <td>Price</td>
+                <td>Stock</td>
+                <td>Sold</td>
+                <td>Action</td>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <% for(let i =0; i < products.length; i++){ %>
+              <tr>
+                <td><%= products[i].name %></td>
+                <td><%= products[i].desc%></td>
+                <td><%= products[i].price %></td>
+                <td><%= products[i].stock || 0 %></td>
+                <td><%= products[i].sold || 0 %></td>
+                <td>
+                  <a href="/admin/edit/<%= products[i]._id %>" ><button class="btn btn-success">Edit</button></a>
+                  <a href="/admin/delete/<%= products[i]._id %>" onclick="return confirm('yakin ingin menghapus?')"><button class="btn btn-danger">Delete</button></a>
+                </td>
+              </tr>
+              <% } %>
+            </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+<!-- End Main Top -->
+
+<!-- Start Top Search -->
+
+<!-- End Top Search -->
+
+<!-- End Slider -->
+
+<!-- End Categories -->
+
+<!-- End Products  -->
+
+    <!-- End Blog  -->
+
+    <%- include('../layouts/footer.ejs'); %>
+
+    <!-- ALL JS FILES -->
+    <!-- <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+    <!-- ALL PLUGINS -->
+    <!-- <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/inewsticker.js"></script>
+    <script src="js/bootsnav.js."></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script> -->
+    
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+    <script>
+      $(document).ready( function () {
+          $('#table').DataTable();
+      } );
+    </script>

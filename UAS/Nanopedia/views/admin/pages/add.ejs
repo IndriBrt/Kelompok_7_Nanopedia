@@ -1,0 +1,86 @@
+
+    <%- include('../layouts/header.ejs'); %>
+</header>
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <form action="/admin/create" method="post" enctype="multipart/form-data">
+          <div class="p-3 py-5">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h3 class="h3">Add Product</h3>
+              </div>
+              <div class="row mt-3">
+                  <div class="col-md-12">
+                      <label class="labels">Name</label>
+                      <input type="text" class="form-control"  value="" name="name">
+                  </div>
+                  <div class="col-md-12">
+                      <label class="labels">Description</label>
+                      <input type="text" class="form-control" value=""  name="desc">
+                  </div>
+                  <div class="col-md-12">
+                      <label class="labels">Stock</label>
+                      <input type="text" class="form-control" placeholder="-" value="" name="stock">
+                  </div>
+                  <div class="col-md-6">
+                      <label class="labels">Price</label>
+                      <input type="text" class="form-control" placeholder="-" value="" name="price">
+                  </div>
+                  <div class="col-md-6">
+                      <label class="labels">Prev Price</label>
+                      <input type="text" class="form-control" placeholder="-" value="" name="prevPrice">
+                  </div>
+                  <div class="col-md-6">
+                      <label class="labels">Sold</label>
+                      <input type="text" class="form-control" placeholder="-" value="" name="sold">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="labels">Images</label>
+                    <input type="file" class="form-control" placeholder="-" value="" name="images" multiple>
+                </div>
+                
+              </div>
+              <button class="btn btn-primary profile-button mt-2" type="submit">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+<!-- End Main Top -->
+
+<!-- Start Top Search -->
+
+<!-- End Top Search -->
+
+<!-- End Slider -->
+
+<!-- End Categories -->
+
+<!-- End Products  -->
+
+    <!-- End Blog  -->
+    <%- include('../layouts/footer.ejs'); %>
+
+    <!-- ALL JS FILES -->
+    <!-- <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+    <!-- ALL PLUGINS -->
+    <!-- <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/inewsticker.js"></script>
+    <script src="js/bootsnav.js."></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script> -->
+
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+    <script>
+      $(document).ready( function () {
+          $('#table').DataTable();
+      } );
+    </script>

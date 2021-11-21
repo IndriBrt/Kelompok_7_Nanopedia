@@ -1,15 +1,28 @@
-const express = require('express')
-
+const express = require('express');
+const mongoose = require('mongoose');
+const bodyParser = require('body-parser')
+const cookieParser = require('cookie-parser');
 const app = express()
+
+app.use(bodyParser.urlencoded({extended : true}));
+app.use(cookieParser())
 
 app.use(express.static("public"));
 app.set('view engine', 'ejs');
+app.use(express.json())
 
 const indexRouter = require('./router/index');
+const adminRouter = require('./router/admin');
+const TokenModel = require('./models/TokenModel');
+const port = process.env.PORT || 3000
 
 app.use('/', indexRouter);
+app.use('/admin', adminRouter);
 
-app.listen('3000', () => {
-    console.log('Server sudah berjalan di port 3000')
+mongoose.connect("mongodb+srv://admin:admin@cluster0.08mya.mongodb.net/nanopedia?retryWrites=true&w=majority", () => {
+    app.listen(port, () => {
+        console.log('Server sudah berjalan di port 3000')
+    })
 })
+
 
